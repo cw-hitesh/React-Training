@@ -1,0 +1,40 @@
+.version-city-content__tab:first-of-type {
+    border-right: 1px solid #e2e2e2;
+
+}
+.dropdown-box__menu-tab {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    position: relative;
+}
+.dropdown-box__menu-title {
+    font-size: 12px;
+    color: #82888b;
+    padding-bottom: 5px;
+}
+.dropdown-box__menu-value {
+    width: 80%;
+    white-space: nowrap;
+    text-align: left;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #4d5057;
+    font-weight: 600;
+}
+.dropdown-box__menu-tab:after {
+    background: url(https://imgd.aeplcdn.com/0x0/bw/static/sprites/m/dropdown-icon.png) center no-repeat;
+    transition: all .3s;
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 5px;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    will-change: transform;
+}

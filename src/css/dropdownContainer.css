@@ -1,0 +1,12 @@
+.version-city__content {
+    border-bottom: 1px solid #e2e2e2;
+    border-top: 1px solid #e2e2e2;
+    min-height: 50px;
+    background-color: #fff;
+}
+.version-city-content__tab {
+    padding: 5px;
+    min-height: 50px;
+    padding-left: 20px;
+}
+

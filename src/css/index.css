@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: LatoGoogle,sans-serif;
+  line-height: normal;
+  background-color: #f5f5f5;
+  font-size: 13px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.inline-block {
+  display: inline-block;
+  vertical-align: middle;
+}
+a {
+  color: #0288d1;
+  text-decoration: none;
+}
+blockquote, body, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, label, legend, li, ol, p, pre, textarea, ul {
+  margin: 0;
+  padding: 0;
+}
+.padding-left20 {
+  padding-left: 20px;
+}
+.padding-right20 {
+  padding-right: 20px;
+}
+.padding-bottom15 {
+  padding-bottom: 15px;
+}
+.padding-left5 {
+  padding-left: 5px
+}
+.text-center {
+  text-align: center;
+} 
+.grid-6 {
+  width: 50%;
+  position: relative;
+  float: left;
+  box-sizing: border-box;
+}
+.font12 {
+  font-size: 12px;
+}
+.text-light-grey {
+  color: #82888b;
+}
+.text-bold {
+  font-weight: 600;
+}
+.font14 {
+  font-size: 14px;
+}
+

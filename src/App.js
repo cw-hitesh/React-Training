@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Header from './Header';
+import Title from './Title';
+import Swiper from './SwiperComponent';
+import Navigator from './Navigator';
+import DropdownContainer from './DropdownContainer';
+import PriceContainer from './PriceContainer';
+import EmiWidget from './EmiWidget';
+import Bottom from './Bottom';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const cityName="Mumbai",areaName="Airport",modelName="Yamaha FZ S FI";
+class App extends React.Component {
+    render() { 
+        return (
+        <React.StrictMode>
+        <Header/>
+        <Title modelName={modelName}/>
+        <Navigator/>
+        <Swiper/>
+        <DropdownContainer cityName={cityName} areaName={areaName}/>
+        <PriceContainer/>
+        <EmiWidget/>
+        <Bottom/>
+      </React.StrictMode>
+        )};
+};
 
 export default App;
+
+

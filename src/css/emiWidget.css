@@ -1,0 +1,117 @@
+.card__price-wrapper {
+    padding-top: 15px;
+    border-top: 1px solid #eee;
+    box-sizing: border-box;
+}
+.card-price__label, .card__price-content, .card__price-content-extend, .emi-calculator__label, .emi-link--active .emi-calculator__link, .model-price-container {
+    display: inline-block;
+    vertical-align: middle;
+}
+.emi-link--active .card-price__label {
+    display: block;
+}
+.card-price__label {
+    padding-right: 8px;
+}
+.tooltip-icon-target.info-icon_left {
+    background-position-x: left;
+    width: 10px;
+}
+.tooltip-icon-target.info-icon {
+    position: relative;
+    width: 25px;
+    height: 15px;
+    background: url(https://imgd.aeplcdn.com/0x0/bw/static/icons/0288d1/info-10x10.png) center no-repeat;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+}
+.emi-link--active .emi-calculator__link {
+    padding: 5px 11px;
+    border: 1px solid #0288d1;
+    border-radius: 3px;
+    color: #0288d1;
+    text-align: center;
+    float: right;
+}
+.tooltip-bottom .info-tooltip.info-tooltip-content_left {
+    right: -99px;
+}
+.info-tooltip.info-tooltip-content_left {
+    text-align: left;
+    padding: 10px;
+}
+.tooltip-bottom .info-tooltip {
+    top: 110%;
+    bottom: auto;
+    right: 0;
+}
+.info-tooltip {
+    display: none;
+    padding: 5px;
+    width: 190px;
+    height: auto;
+    cursor: default;
+    position: absolute;
+    bottom: 20px;
+    right: -85px;
+    z-index: 2;
+    text-align: center;
+    font-size: 12px;
+    color: #787878;
+    border-radius: 2px;
+    border: 1px solid #e2e2e2;
+    background: #fff;
+    box-shadow: 0 1px 2px #eee;
+}
+.info-tooltip {
+    display: none;
+}
+.info-tooltip.info-tooltip-content_left {
+    text-align: left;
+    padding: 10px;
+}
+.emi-slug__link {
+    font-size: 13px;
+    font-weight: 600;
+}
+.emi-calculator__label {
+    color: #0288d1;
+    cursor: pointer;
+}
+.oxygen-btn-secondary-ghost, .oxygen-features>.btn-inv-teal {
+    background-color: #fff!important;
+    color: #00afa0!important;
+    border: 1px solid #00afa0!important;
+}
+.oxygen-btn-new, .oxygen-btn-sm {
+    height: 32px!important;
+    font-size: 13px!important;
+}
+.oxygen-btn, .oxygen-features .btn {
+    box-sizing: border-box;
+    -webkit-box-align: center!important;
+    -moz-box-align: center!important;
+    -ms-flex-align: center!important;
+    -webkit-align-items: center!important;
+    align-items: center!important;
+    -webkit-box-pack: center!important;
+    -moz-box-pack: center!important;
+    -ms-flex-pack: center!important;
+    -webkit-justify-content: center!important;
+    justify-content: center!important;
+    display: -webkit-inline-flex!important;
+    display: inline-flex!important;
+    font-weight: 700;
+    border-radius: 3px!important;
+    cursor: pointer;
+}
+.oxygen-btn, .oxygen-btn-primary.oxygen-leadpopup-btn, .oxygen-features .btn {
+    padding: 8px 20px!important;
+    white-space: nowrap;
+    user-select: none;
+    text-decoration: none;
+}
+.emi-link--active {
+    background-color: #fff;
+}

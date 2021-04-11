@@ -1,0 +1,44 @@
+.title-container 
+{
+    padding: 10px 20px 0px 20px;
+    background: #fff;
+    margin: 0;
+    padding: 15px;    
+}
+.page-header 
+{
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+.model-top__review-list {
+    display: inline-block;
+    vertical-align: top;
+}
+@media screen and (max-width: 799px) {
+.rate-count-4 {
+    color: #13b65d;
+}
+}
+@media screen and (max-width: 799px) {
+.rate-count-4 .star-icon {
+    background: url(https://imgd.aeplcdn.com/0x0/bw/static/icons/ratings/star-4-26x25.png) center no-repeat;
+    transform: scale(.5);
+    display: inline-block;
+    vertical-align: middle;
+    width: 23px;
+    height: 22px;
+}
+}
+.text-bold 
+{   
+    width: 23px;
+    padding-top: 3px
+}
+.model-top-review-list__item {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 8px;
+    padding-right: 5px;
+    border-left: 1px solid #ededed;
+    padding-top:3px;
+}

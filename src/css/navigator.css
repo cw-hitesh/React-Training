@@ -1,0 +1,30 @@
+.navigator {
+    width: 100%;
+    display: block;
+    background: #fff;
+    overflow-x: auto;
+    z-index: 5;
+    position: relative;
+    box-shadow: 0 4px 5px -2px #d5d5d5;
+    display: table;
+}
+.tag
+{
+    color: #4d5057;
+    display: table-cell;
+    width: 1%;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 14px;
+    color: #82888b;
+    cursor: pointer;
+}
+.first-tag {
+    padding-left: 10px;
+    border-bottom: 3px solid #00afa0;
+}
+.other-tags {
+    padding-left: 10px;
+}

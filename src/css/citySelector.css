@@ -1,0 +1,16 @@
+
+.selected-location-label.text-truncate {
+    width: 84%;
+}
+.location--active .location-map-icon {
+    background-image: url(https://imgd.aeplcdn.com/0x0/bw/static/icons/0987d1/location-outline.svg);
+}
+.location-map-icon {
+    background-image: url(https://imgd.aeplcdn.com/0x0/bw/static/icons/0987d1/location-filled.svg);
+    background-position: center;
+    width: 16px;
+    height: 28px;
+    position: absolute;
+    bottom: 30%;
+    left: 70%;
+}
